@@ -1,0 +1,116 @@
+* {
+  	font-family: sans-serif;
+  	cursor: url("assets/cursor_default.png") 0 0, default;
+}
+
+body {
+	color: #d79921;
+	background-color: #282828;
+}
+
+h1 {
+	color: #282828;
+	background: linear-gradient(to right, #cc241d 0%, #fb4934 100%);
+	padding: 1%;
+	border-radius: 10px 10px 10px 10px;
+}
+
+h2 {
+	color: #282828;
+	background: linear-gradient(to right, #98971a 0%, #b8bb26 100%);
+	padding: 1%;
+	border-radius: 10px 10px 10px 10px;
+}
+
+a{
+	color: #458588;
+}
+
+#text{
+padding: 1%;
+margin-bottom: 23px;
+color: #282828;
+background: linear-gradient(to right, #d79921 0%, #fabd2f 100%);
+border-radius: 10px 10px 10px 10px;
+}
+
+#primaryContent{
+padding: 1%;
+margin-bottom: 23px;
+color: #282828;
+background: linear-gradient(to right, #d79921 0%, #fabd2f 100%);
+border-radius: 10px 10px 10px 10px;
+}
+
+#main {
+  font-size: 14pt;
+  background-color: #3c3836;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 1%;
+  text-align: left;
+  /* border: 5px solid #ebdbb2ff; */
+  border-radius: 10px 10px 10px 10px;
+}
+
+.center{
+	width: 50%;
+	margin: auto;
+}
+
+form{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+input[type=button]{
+	font-weight: bold;
+	font-size: 14pt;
+	color: #282828;
+	border: 10px red;
+	padding: 16px 32px;
+	background-color: #689d6a;
+	border-radius: 10px 10px 10px 10px;
+	margin: auto;
+	transition: 0.5s;
+	margin: auto;
+  	cursor: url("assets/cursor_pointer.png") 10 10, pointer;
+}
+
+input[type=button]:hover{
+	background-color: #8ec07c;
+	transition: 0.5s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #928374;
+  border-radius: 10px 10px 10px 10px;
+}
+
+li {
+	float: left;
+}
+
+a li{
+  display: block;
+  color: #3c3836;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#homeButton {
+}
+
+/* Change the link color to #111 (black) on hover */
+a li:hover,
+a li i:hover{
+  transition: 0.5s;
+  background-color: #83a598;
+  cursor: url("assets/cursor_pointer.png") 10 10, pointer;
+}
