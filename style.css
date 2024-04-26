@@ -104,10 +104,10 @@ a li{
   transition: 0.5s;
 }
 
-#homeButton {
+a:hover {
+  cursor: url("assets/cursor_pointer.png") 10 10, pointer;
 }
 
-/* Change the link color to #111 (black) on hover */
 a li:hover,
 a li i:hover{
   transition: 0.5s;
