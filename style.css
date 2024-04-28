@@ -1,6 +1,6 @@
 * {
   	font-family: sans-serif;
-  	cursor: url("assets/cursor_default.png") 0 0, default;
+  	cursor: url("assets/cursor/cursor_default.png") 0 0, default;
 }
 
 body {
@@ -73,7 +73,7 @@ input[type=button]{
 	margin: auto;
 	transition: 0.5s;
 	margin: auto;
-  	cursor: url("assets/cursor_pointer.png") 10 10, pointer;
+  	cursor: url("assets/cursor/cursor_pointer.png") 10 10, pointer;
 }
 
 input[type=button]:hover{
@@ -105,12 +105,12 @@ a li{
 
 a:hover,
 a img:hover{
-  cursor: url("assets/cursor_pointer.png") 10 10, pointer;
+  cursor: url("assets/cursor/cursor_pointer.png") 10 10, pointer;
 }
 
 a li:hover,
 a li i:hover{
   transition: 0.5s;
   background-color: #83a598;
-  cursor: url("assets/cursor_pointer.png") 10 10, pointer;
+  cursor: url("assets/cursor/cursor_pointer.png") 10 10, pointer;
 }
