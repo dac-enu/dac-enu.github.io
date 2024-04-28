@@ -103,7 +103,8 @@ a li{
   transition: 0.5s;
 }
 
-a:hover {
+a:hover,
+a img:hover{
   cursor: url("assets/cursor_pointer.png") 10 10, pointer;
 }
 
