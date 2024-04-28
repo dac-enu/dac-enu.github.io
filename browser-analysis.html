@@ -15,13 +15,16 @@
 			<div id="main">
 				<h1>Dylan's Web Browser Privacy "Emporium"</h1>
 				<ul id="navBar">
-					<a class="navButton" href="index.html"><li><i class="fa-solid fa-house"></i> Home</li></a>
-					<a class="navButton" href="browser-analysis.html"><li><i class="fa-solid fa-magnifying-glass-chart"></i> Analyse Your Web Browser</li></a>
+					<li><a class="navButton" href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+					<li><a class="navButton" href="browser-analysis.html"><i class="fa-solid fa-magnifying-glass-chart"></i> Analyse Your Web Browser</a></li>
 					<!-- <a class="navButton" href="index.html"><li><i class="fa-solid fa-shield"></i> Web Browser Mitigation Guides</li></a> -->
-					<a class="navButton" href="browser-recommendations.html"><li><i class="fa-solid fa-window-restore"></i> Web Browser Recommendations</li></a>
+					<li><a class="navButton" href="browser-recommendations.html"><i class="fa-solid fa-window-restore"></i> Web Browser Recommendations</a></li>
 				</ul>
 				<h2>Web Browser Analysis</h2>
 					<div id="primaryContent">
+						<p>Below you will see a button that will exectute JavaScript code to give you a sample of some of the data points that your web browser can report to a website even without you knowing, unless you are already aware of it being a possibility. These data points as well as others can be used to create a unique digital fingerprint and with common trackers deployed on various websites from the likes of Google, Cloudflare, Meta, and more, this will allow them to see what websites and its pages you visit.</p>
+						<p>To add an element of fun experimentation, try this test on different web browsers and devices. You can also experiment with the <a href="https://add0n.com/useragent-switcher.html">User Agent Switch and Manager extension.</a></p>
+						<p>If you click the below button, the information shown will not be stored by myself.</p>
 						<form>
 							<input id="testButton" type="button" value="Test browser..." onclick="fingerprintDemo();calculateFingerprint()"/>
 						</form>

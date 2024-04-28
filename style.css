@@ -10,9 +10,12 @@ body {
 
 h1 {
 	color: #282828;
+	font-size: 22pt;
 	background: linear-gradient(to right, #cc241d 0%, #fb4934 100%);
 	padding: 1%;
 	border-radius: 10px 10px 10px 10px;
+	margin-top: 0;
+	margin-bottom: 1.5%;
 }
 
 h2 {
@@ -20,6 +23,8 @@ h2 {
 	background: linear-gradient(to right, #98971a 0%, #b8bb26 100%);
 	padding: 1%;
 	border-radius: 10px 10px 10px 10px;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
 }
 
 a{
@@ -28,7 +33,7 @@ a{
 
 #text{
 padding: 1%;
-margin-bottom: 23px;
+margin-bottom: 1%;
 color: #282828;
 background: linear-gradient(to right, #d79921 0%, #fabd2f 100%);
 border-radius: 10px 10px 10px 10px;
@@ -36,7 +41,7 @@ border-radius: 10px 10px 10px 10px;
 
 #primaryContent{
 padding: 1%;
-margin-bottom: 23px;
+margin-bottom: 1.5%;
 color: #282828;
 background: linear-gradient(to right, #d79921 0%, #fabd2f 100%);
 border-radius: 10px 10px 10px 10px;
@@ -81,26 +86,33 @@ input[type=button]:hover{
 	transition: 0.5s;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #928374;
-  border-radius: 10px 10px 10px 10px;
+#navBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #a89984;
+	display: flex;
+	border-radius: 10px 10px 10px 10px;
+	font-size: 12pt;
 }
 
 li {
-	float: left;
+	flex-grow: 1;
 }
 
-a li{
-  display: block;
-  color: #3c3836;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.5s;
+li a {
+	display: block;
+	color: #282828;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+li a:hover{
+	background-color: #83a598;
+	transition: 0.3s;
 }
 
 a:hover,
@@ -109,7 +121,7 @@ a img:hover{
 }
 
 a li:hover,
-a li i:hover{
+i:hover{
   transition: 0.5s;
   background-color: #83a598;
   cursor: url("assets/cursor/cursor_pointer.png") 10 10, pointer;
